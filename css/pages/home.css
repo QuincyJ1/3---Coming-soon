@@ -5,3 +5,37 @@
 /* vendors */
 
 @import '../components/button.css';
+
+.hero {
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.main-title,
+.main-description {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+}
+
+.main-description {
+    font-size: 
+}
