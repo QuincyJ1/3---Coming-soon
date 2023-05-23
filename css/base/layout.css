@@ -15,9 +15,12 @@
 }
 
 .column {
-  width: 50%;
-  float: left;
-  background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    float: left;
+
 }
 
 .column-right {
