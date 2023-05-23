@@ -59,12 +59,13 @@
   padding: 1em;
   color: #fff;
   text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s;
 }
 
 .socials > a:hover {
   background-color: #fff;
   color: var(--main-color);
-  border-radius: 50%;
 }
 
 /* footer > .row {
