@@ -1,5 +1,4 @@
 .container {
-  min-height: 100vh;
   padding: 60px 0;
 }
 
@@ -15,12 +14,11 @@
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 50%;
-    float: left;
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+  float: left;
 }
 
 .column-right {
