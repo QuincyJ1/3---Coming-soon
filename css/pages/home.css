@@ -2,9 +2,11 @@
 
 @import "../base/layout.css";
 
+@import "../vendor/roboto.css";
 @import "../vendor/font-awesome.min.css";
 
 @import "../components/button.css";
+@import "../components/clock.css";
 
 .hero {
   min-height: 100vh;
@@ -39,25 +41,24 @@
   font-family: Roboto;
 }
 
-
 .column-title {
-text-transform: uppercase;
-font-size: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .column-description {
-color: #777;
-font-size: 17px;
-line-height: 1.7em;
+  color: #777;
+  font-size: 17px;
+  line-height: 1.7em;
 }
 
 .column-description > a {
-    color: var(--secondary-color);
-    text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .column-description > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer.container {
@@ -77,7 +78,6 @@ line-height: 1.7em;
   height: 2.4em;
   line-height: 2.4em;
   text-align: center;
-  padding: 1em;
   color: #fff;
   text-decoration: none;
   border-radius: 50%;
@@ -92,4 +92,3 @@ line-height: 1.7em;
 /* footer > .row {
   background-color: 1px solid #fff;
 } */
-
