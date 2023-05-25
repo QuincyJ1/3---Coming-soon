@@ -90,6 +90,34 @@
   color: var(--main-color);
 }
 
+footer .logo {
+  margin: 40px 0;
+}
+
+.text-trio {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-trio > span {
+}
+
+.text-trio > span > a {
+}
+.footer-bottom {
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 /* footer > .row {
   background-color: 1px solid #fff;
 } */
