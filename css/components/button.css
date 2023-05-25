@@ -1,0 +1,22 @@
+.btn {
+  padding: 1em 2em;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: -1 3px 5px 0 #0003;
+  user-select: none;
+}
+
+.btn:hover {
+}
+
+.btn.btn-sm {
+}
+.btn.btn-lg {
+}
+.btn.btn-xl {
+}
